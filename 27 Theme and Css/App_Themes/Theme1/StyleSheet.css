@@ -1,0 +1,12 @@
+﻿body 
+{
+	background-color:grey;
+	margin-top:200px;
+	margin-left:600px;
+}
+.btn {
+   text-shadow: 2px 2px 5px red;
+}
+.txt {
+  box-shadow: 5px 5px 2px lightblue;
+}
