@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"   CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <link rel="stylesheet" href="App_Themes/Theme1/master.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+     <nav>
+    <div class="logo">Master Page</div>
+    <label for="btn" class="icon">
+        <span class="fa-solid fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn"/>
+    <ul>
+        
+        <li>
+            <label for="btn-1" class="show" > Cricket</label>
+          
+            <a href="#">Cricket</a>
+            <input type="checkbox" id="btn-1"/>
+           
+            <ul>
+                <li><a href="wc.aspx">World Cup</a></li>
+                <li><a href="ipl.aspx">IPL</a></li>
+                
+            </ul>
+        </li>
+        <li>
+            <label for="btn-2" class="show" > Football</label>
+            <a href="#">Football</a>
+            <input type="checkbox" id="btn-2" />
+            <ul>
+                <li><a href="fwc.aspx">World Cup</a></li>
+                <li><a href="isl.aspx">ISL</a></li>
+                            
+            </ul>
+        </li>
+        <li>
+            <label for="btn-3" class="show" >kabaddi</label>
+          
+            <a href="#">kabaddi</a>
+            <input type="checkbox" id="btn-3">
+           
+            <ul>
+                <li><a href="kwc.aspx">World Cup</a></li>
+                <li><a href="prokbd.aspx">Pro KBD</a></li>
+            </ul>
+        </li>
+        <li></li>
+    </ul>
+   </nav> 
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+    </div>
+    </form>
+    <p>
+        &nbsp;</p>
+</body>
+</html>
