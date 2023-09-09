@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>    
+    <ImageUrl>fkt.png</ImageUrl>
+    <AlterText>Flipkart</AlterText>
+    <NavigateUrl>https://www.flipkart.com/</NavigateUrl>
+    <Impressions>3</Impressions>
+    <keyword>ecomm</keyword>
+    <Height>200</Height>
+    <Width>200</Width>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>amzn.png</ImageUrl>
+    <AlterText>Amazon</AlterText>
+    <NavigateUrl>https://www.Amazon.com/</NavigateUrl>
+    <Impressions>5</Impressions>
+    <keyword>ecomm</keyword>
+    <Height>200</Height>
+    <Width>200</Width>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>myntra.jpg</ImageUrl>
+    <AlterText>myntra</AlterText>
+    <NavigateUrl>https://www.myntra.com/</NavigateUrl>
+    <Impressions>1</Impressions>
+    <keyword>ecomm</keyword>
+    <Height>200</Height>
+    <Width>300</Width>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>jio.png</ImageUrl>
+    <AlterText>JioMart</AlterText>
+    <NavigateUrl>https://www.jiomart.com/</NavigateUrl>
+    <Impressions>2</Impressions>
+    <keyword>ecomm</keyword>
+    <Height>200</Height>
+    <Width>400</Width>
+  </Ad>
+</Advertisements>
+
